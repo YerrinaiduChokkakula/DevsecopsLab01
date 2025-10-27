@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'docker-agent-vm'
+        label 'Yerri-Docker-Agent'
     }
     environment {
         DOCKERHUB_USER = 'YerriDevsecopslab'
