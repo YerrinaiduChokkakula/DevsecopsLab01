@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'yerri-security-agent'
+        label 'yerri-ubuntu-a'
     }
     environment {
         DOCKERHUB_USER = 'yerrivevsecopstest2'
